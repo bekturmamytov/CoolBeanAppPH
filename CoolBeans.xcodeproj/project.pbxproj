@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5556766628F0F38700A3C4D5 /* CoolBeanTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5556766528F0F38600A3C4D5 /* CoolBeanTestView.swift */; };
 		55646E6628C43D6C00CA4AAD /* CoolBeansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55646E6528C43D6C00CA4AAD /* CoolBeansApp.swift */; };
 		55646E6828C43D6C00CA4AAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55646E6728C43D6C00CA4AAD /* ContentView.swift */; };
 		55646E6A28C43D6D00CA4AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55646E6928C43D6D00CA4AAD /* Assets.xcassets */; };
 		55646E6D28C43D6D00CA4AAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55646E6C28C43D6D00CA4AAD /* Preview Assets.xcassets */; };
+		55646E7428C43E4200CA4AAD /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 55646E7328C43E4200CA4AAD /* menu.json */; };
+		55646E7628C43ECF00CA4AAD /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55646E7528C43ECF00CA4AAD /* Drink.swift */; };
+		55646E7828C43FB800CA4AAD /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55646E7728C43FB800CA4AAD /* MenuSection.swift */; };
+		55646E7A28C43FFA00CA4AAD /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55646E7928C43FFA00CA4AAD /* Menu.swift */; };
+		55646E7C28C4427D00CA4AAD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55646E7B28C4427D00CA4AAD /* MenuView.swift */; };
+		55BC26A528C4488800A0A469 /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC26A428C4488700A0A469 /* CustomizeView.swift */; };
+		55BC26A728C44DF200A0A469 /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC26A628C44DF200A0A469 /* ConfigurationOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5556766528F0F38600A3C4D5 /* CoolBeanTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBeanTestView.swift; sourceTree = "<group>"; };
 		55646E6228C43D6C00CA4AAD /* CoolBeans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolBeans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55646E6528C43D6C00CA4AAD /* CoolBeansApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBeansApp.swift; sourceTree = "<group>"; };
 		55646E6728C43D6C00CA4AAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55646E6928C43D6D00CA4AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55646E6C28C43D6D00CA4AAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55646E7328C43E4200CA4AAD /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = "CoolBeans 2/menu.json"; sourceTree = SOURCE_ROOT; };
+		55646E7528C43ECF00CA4AAD /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		55646E7728C43FB800CA4AAD /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		55646E7928C43FFA00CA4AAD /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		55646E7B28C4427D00CA4AAD /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		55BC26A428C4488700A0A469 /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
+		55BC26A628C44DF200A0A469 /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +69,15 @@
 			children = (
 				55646E6528C43D6C00CA4AAD /* CoolBeansApp.swift */,
 				55646E6728C43D6C00CA4AAD /* ContentView.swift */,
+				55646E7B28C4427D00CA4AAD /* MenuView.swift */,
+				55BC26A428C4488700A0A469 /* CustomizeView.swift */,
+				55BC26A628C44DF200A0A469 /* ConfigurationOption.swift */,
+				55646E7528C43ECF00CA4AAD /* Drink.swift */,
+				55646E7728C43FB800CA4AAD /* MenuSection.swift */,
+				55646E7928C43FFA00CA4AAD /* Menu.swift */,
+				5556766528F0F38600A3C4D5 /* CoolBeanTestView.swift */,
 				55646E6928C43D6D00CA4AAD /* Assets.xcassets */,
+				55646E7328C43E4200CA4AAD /* menu.json */,
 				55646E6B28C43D6D00CA4AAD /* Preview Content */,
 			);
 			path = CoolBeans;
@@ -125,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55646E7428C43E4200CA4AAD /* menu.json in Resources */,
 				55646E6D28C43D6D00CA4AAD /* Preview Assets.xcassets in Resources */,
 				55646E6A28C43D6D00CA4AAD /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +163,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				55646E6828C43D6C00CA4AAD /* ContentView.swift in Sources */,
+				55646E7C28C4427D00CA4AAD /* MenuView.swift in Sources */,
+				55646E7628C43ECF00CA4AAD /* Drink.swift in Sources */,
+				55646E7828C43FB800CA4AAD /* MenuSection.swift in Sources */,
 				55646E6628C43D6C00CA4AAD /* CoolBeansApp.swift in Sources */,
+				55BC26A728C44DF200A0A469 /* ConfigurationOption.swift in Sources */,
+				55BC26A528C4488800A0A469 /* CustomizeView.swift in Sources */,
+				55646E7A28C43FFA00CA4AAD /* Menu.swift in Sources */,
+				5556766628F0F38700A3C4D5 /* CoolBeanTestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
