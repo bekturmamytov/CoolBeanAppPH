@@ -11,6 +11,7 @@ struct CoolBeanTestView: View {
     var body: some View {
         Text("Hello, Git!")
         Text("Adding a text to test push by xcode")
+        Text("Added this line of code to test branching")
     }
 }
 
