@@ -12,6 +12,7 @@ struct CoolBeanTestView: View {
         Text("Hello, Git!")
         Text("Adding a text to test push by xcode")
         Text("Added this line of code to test branching")
+        Text("Added this line of code to add extra code to the new brach")
     }
 }
 
